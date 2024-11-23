@@ -148,7 +148,7 @@ section {
 .missionsStatement {
   width: 100%;
 
-  background: url(Photos/coverPhoto.jpeg);
+  background: url(Photos/coverphoto2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -244,8 +244,8 @@ section {
 }
 
 .navLowerPhone {
-  border-left: 1.5px solid #000000;
-  border-right: 1.5px solid #000000;
+  border-left: 1.5px solid #ffffff;
+  border-right: 1.5px solid #ffffff;
 
   /* background-color: #0000008c; */
 }
