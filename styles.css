@@ -148,7 +148,7 @@ section {
 .missionsStatement {
   width: 100%;
 
-  background: url(Photos/frank-mckenna-f1A-oXmkYpE-unsplash.jpg);
+  background: url(Photos/cov);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -198,6 +198,7 @@ section {
   align-items: center;
   width: 100%;
   background-color: #012840;
+  background-color: #0288d1;
 }
 .navLower p {
   color: #000000;
