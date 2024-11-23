@@ -143,7 +143,7 @@ section {
 /* Mission Statement Section */
 .overlay {
   width: 100%;
-  background-color: #00000085;
+  background-color: #00000083;
 }
 .missionsStatement {
   width: 100%;
@@ -197,8 +197,8 @@ section {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #012840;
-  background-color: #0288d1;
+  background-color: #02456e;
+  /* background-color: #0288d1; */
 }
 .navLower p {
   color: #000000;
