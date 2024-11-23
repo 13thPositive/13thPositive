@@ -148,7 +148,7 @@ section {
 .missionsStatement {
   width: 100%;
 
-  background: url(Photos/cov);
+  background: url(Photos/coverPhoto.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -235,11 +235,11 @@ section {
 
 .navLower ul li a svg,
 .navLower ul li a i {
-  color: #ccc;
+  color: #f7f7f7;
   width: 2rem;
   height: 2rem;
   font-size: 2rem;
-  fill: #ccc;
+  fill: #ffffff;
   margin: 0.2rem;
 }
 
