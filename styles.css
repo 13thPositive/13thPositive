@@ -823,14 +823,27 @@ section {
 /* iPhone Landscape (horizontal) */
 @media screen and (min-width: 667px) and (max-width: 935px) and (orientation: landscape) {
   /* Styles for iPhone in landscape mode */
-
+  .missionContent {
+    flex-direction: column;
+    align-items: center;
+  }
   .formcon p {
     margin: 2rem;
   }
-  .missionContentImgCon img {
-    width: 20rem;
+  .missionContent p {
+    padding: 0;
   }
 
+  .missionContentImgCon {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .missionContentImgCon {
+    width: 20rem;
+  }
   .funds-breakdown {
     padding: 0;
   }
