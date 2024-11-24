@@ -199,6 +199,7 @@ section {
   width: 100%;
   background-color: #02456e;
   background-color: #000000;
+  padding: 0.5rem 0;
   /* background-color: #0288d1; */
 }
 .navLower p {
@@ -224,7 +225,7 @@ section {
   margin: 0.25rem 1rem;
 }
 .navLower ul li a {
-  color: #ffffff;
+  color: #0288d1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,8 +247,8 @@ section {
 }
 
 .navLowerPhone {
-  border-left: 1.5px solid #ffffff;
-  border-right: 1.5px solid #ffffff;
+  border-left: 1.5px solid #0288d1;
+  border-right: 1.5px solid #0288d1;
 
   /* background-color: #0000008c; */
 }
