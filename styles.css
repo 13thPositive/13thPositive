@@ -823,6 +823,12 @@ section {
 /* iPhone Landscape (horizontal) */
 @media screen and (min-width: 667px) and (max-width: 935px) and (orientation: landscape) {
   /* Styles for iPhone in landscape mode */
+  .formcon p {
+    margin: 2rem;
+  }
+  .missionContentImgCon img {
+    width: 20rem;
+  }
 
   .funds-breakdown {
     padding: 0;
