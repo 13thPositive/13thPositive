@@ -231,14 +231,15 @@ section {
   font-size: 0.5rem;
   font-weight: bold;
   line-height: 1;
+  font-size: 1rem;
 }
 
 .navLower ul li a svg,
 .navLower ul li a i {
   color: #f7f7f7;
-  width: 2rem;
-  height: 2rem;
-  font-size: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
   fill: #ffffff;
   margin: 0.2rem;
 }
