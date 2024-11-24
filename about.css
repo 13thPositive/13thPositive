@@ -588,3 +588,9 @@ a:focus {
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 667px) and (max-width: 935px) and (orientation: landscape) {
+  .aboutUs p {
+    padding: 2rem;
+  }
+}
