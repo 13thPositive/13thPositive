@@ -197,6 +197,7 @@ section {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding: 0.5rem 0;
   background-color: #02456e;
   background-color: #000000;
   /* background-color: #0288d1; */
@@ -210,7 +211,7 @@ section {
   flex-direction: row;
   animation: grown 1.5s ease;
 
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .navLower ul li {
@@ -221,7 +222,6 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0.25rem 1rem;
 }
 .navLower ul li a {
   color: #ffffff;
@@ -242,7 +242,6 @@ section {
   height: 1.8rem;
   font-size: 1.8rem;
   fill: #ffffff;
-  margin: 0.5rem;
 }
 
 .navLowerPhone {
@@ -251,9 +250,7 @@ section {
 
   /* background-color: #0000008c; */
 }
-.navLowerPhone i {
-  margin: 0.5rem;
-}
+
 /* takeAction section */
 .takeActionContainer {
   padding: 0rem 4.5rem;
