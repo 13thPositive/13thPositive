@@ -245,8 +245,8 @@ section {
 }
 
 .navLowerPhone {
-  border-left: 1.5px solid #b3b3b3;
-  border-right: 1.5px solid #b3b3b3;
+  border-left: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
 
   /* background-color: #0000008c; */
 }
