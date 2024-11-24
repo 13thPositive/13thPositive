@@ -198,6 +198,7 @@ section {
   align-items: center;
   width: 100%;
   background-color: #02456e;
+  background-color: #000000;
   /* background-color: #0288d1; */
 }
 .navLower p {
