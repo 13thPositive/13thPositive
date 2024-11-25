@@ -733,7 +733,7 @@ section {
     line-height: 0.8;
     font-size: 2.5rem;
     margin: 0;
-    padding: 2rem 02rem;
+    padding: 2rem 0.5rem;
     padding-top: 0rem;
     font-weight: 800;
   }
