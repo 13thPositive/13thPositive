@@ -247,11 +247,6 @@ section {
   .whereDonationsGoSec ul li {
     padding: 0.5rem 0;
   }
-  .payPalDonateBtn {
-    width: 30%;
-    background-color: #b3b3b3;
-    padding: 1rem;
-  }
 
   .transparencySec {
     text-align: justify;
