@@ -143,7 +143,7 @@ section {
 /* Mission Statement Section */
 .overlay {
   width: 100%;
-  background-color: #00000042;
+  background-color: #0000007a;
 }
 .missionsStatement {
   width: 100%;
@@ -199,7 +199,7 @@ section {
   width: 100%;
   padding: 0.5rem 0;
   background-color: #02456e;
-  background-color: #012840ec;
+  background-color: #2a2c2b;
 }
 .navLower p {
   color: #000000;
@@ -230,8 +230,8 @@ section {
   align-items: center;
   font-size: 0.5rem;
   line-height: 1;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.6rem;
+  font-weight: 200;
 }
 
 .navLower ul li a svg,
