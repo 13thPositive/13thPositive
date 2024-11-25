@@ -200,13 +200,6 @@ section {
   fill: #ffffff;
 }
 
-.navLowerPhone {
-  border-left: 1px solid #0288d1;
-  border-right: 1px solid #0288d1;
-
-  /* background-color: #0000008c; */
-}
-
 /* end of nav lower */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
   .navLower {
