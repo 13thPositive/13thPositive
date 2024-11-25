@@ -544,7 +544,7 @@ a:focus {
     align-items: center;
     line-height: 0.75;
     font-size: 0.8rem;
-    font-weight: 900;
+    font-weight: 500;
   }
 
   .navLower ul li a svg,
