@@ -542,7 +542,7 @@ a:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 1;
+    line-height: 0.75;
     font-size: 1rem;
     font-weight: 500;
 
