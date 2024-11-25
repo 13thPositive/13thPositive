@@ -134,11 +134,11 @@ section {
   background-color: #00000050;
 }
 #donateBtn {
-  background-color: #00000050;
+  background-color: #4caf50; /* Original donate button color */
 }
 
 #donateBtn a {
-  color: #79b305;
+  color: #ffffff;
 }
 
 #scrollToTop i {
@@ -637,10 +637,6 @@ section {
 
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
-  .navLower {
-    display: ;
-  }
-
   .btn-txt {
     font-size: 0.8rem;
     letter-spacing: 2px;
@@ -658,7 +654,7 @@ section {
     width: 100%;
     font-weight: 100;
     font-size: 1.2rem;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     padding-bottom: 0;
     text-align: center;
     line-height: 1.5;
@@ -698,7 +694,7 @@ section {
     max-width: unset;
     font-weight: 300;
     font-size: 1.2rem;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     padding-bottom: 0;
     width: 100%;
     line-height: 1.5;
@@ -737,7 +733,7 @@ section {
 
     font-size: 2rem;
     margin: 0;
-    padding: 2rem 0.25rem;
+    padding: 2rem 0.5rem;
     font-weight: 800;
   }
 
