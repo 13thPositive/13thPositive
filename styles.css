@@ -727,9 +727,9 @@ section {
   .mobileParagrpah {
     animation: grown 1s;
     color: #ffffff;
-    align-items: center;
-    font-size: 2rem;
-    line-height: 1.5;
+
+    font-size: 3rem;
+    line-height: 0.8;
     margin: 0;
     padding: 1rem;
     font-weight: 600;
