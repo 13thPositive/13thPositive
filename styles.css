@@ -133,6 +133,13 @@ section {
 #scrollToTop {
   background-color: #00000050;
 }
+#donateBtn {
+  background-color: #00000050;
+}
+
+#donateBtn a {
+  color: #79b305;
+}
 
 #scrollToTop i {
   font-size: 2.5rem;
@@ -631,7 +638,7 @@ section {
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
   .navLower {
-    display: flex;
+    display: ;
   }
 
   .btn-txt {
