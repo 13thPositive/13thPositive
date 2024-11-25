@@ -143,7 +143,7 @@ section {
 /* Mission Statement Section */
 .overlay {
   width: 100%;
-  background-color: #0000003a;
+  background-color: #0000001f;
 }
 .missionsStatement {
   width: 100%;
@@ -199,7 +199,7 @@ section {
   width: 100%;
   padding: 0.5rem 0;
   background-color: #02456e;
-  background-color: #012840;
+  background-color: #012840ec;
 }
 .navLower p {
   color: #000000;
@@ -654,7 +654,7 @@ section {
     padding: 1rem 2rem;
     padding-bottom: 0;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 
   .missionContentImgCon {
@@ -672,7 +672,7 @@ section {
   }
   .formcon p {
     padding: 0;
-    line-height: 1.5;
+    line-height: 1.2;
 
     font-size: 1.3rem;
   }
@@ -694,7 +694,7 @@ section {
     padding: 1rem 2rem;
     padding-bottom: 0;
     width: 100%;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #000;
     width: 100%;
   }
@@ -728,8 +728,8 @@ section {
     animation: grown 1s;
     color: #ffffff;
     align-items: center;
-    font-size: 1.8rem;
-    line-height: 1;
+    font-size: 2rem;
+    line-height: 1.5;
     margin: 0;
     padding: 1rem;
     font-weight: 600;
