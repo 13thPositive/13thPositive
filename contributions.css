@@ -148,7 +148,73 @@ section {
 
 /* end of footer */
 
+/* nav lower styles */
+
+.navLower {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #02456e;
+  background-color: #2a2c2b;
+}
+.navLower p {
+  color: #000000;
+}
+.navLower ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  animation: grown 1.5s ease;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navLower ul li {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navLower ul li a {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+  line-height: 1;
+  font-size: 0.6rem;
+  font-weight: 200;
+}
+
+.navLower ul li a svg,
+.navLower ul li a i {
+  color: #f7f7f7;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  fill: #ffffff;
+}
+
+.navLowerPhone {
+  border-left: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
+
+  /* background-color: #0000008c; */
+}
+
+/* end of nav lower */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+  .navLower {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+  }
   .hero {
     height: 35vh;
   }
