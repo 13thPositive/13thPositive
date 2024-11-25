@@ -510,8 +510,8 @@ a:focus {
     align-items: center;
     width: 100%;
     padding: 0.5rem 0;
-    background-color: #02456e;
-    background-color: #2a2c2b;
+
+    background-color: transparent;
     position: absolute;
     bottom: 0;
   }
