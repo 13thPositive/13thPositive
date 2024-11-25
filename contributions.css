@@ -189,7 +189,6 @@ section {
   line-height: 0.75;
   font-size: 0.8rem;
   font-weight: 900;
-  color: #0288d1;
 }
 
 .navLower ul li a svg,
@@ -202,8 +201,8 @@ section {
 }
 
 .navLowerPhone {
-  border-left: 1px solid #b3b3b3;
-  border-right: 1px solid #b3b3b3;
+  border-left: 1px solid #0288d1;
+  border-right: 1px solid #0288d1;
 
   /* background-color: #0000008c; */
 }
