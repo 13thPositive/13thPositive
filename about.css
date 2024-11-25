@@ -556,13 +556,6 @@ a:focus {
     fill: #ffffff;
   }
 
-  .navLowerPhone {
-    border-left: 1px solid #0288d1;
-    border-right: 1px solid #0288d1;
-
-    /* background-color: #0000008c; */
-  }
-
   .hero {
     height: 35vh;
   }
