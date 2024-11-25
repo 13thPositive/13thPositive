@@ -1,147 +1,278 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contributions</title>
-    <title> Contribute to 13th Positive Foundation | Supporting Maywood</title>
-    <link rel="stylesheet" href="navbar.css" />
-    <link rel="stylesheet" href="contributions.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <section class="hero">
-      <div class="overlay">
-        <div class="heroContent">
-          <nav class="nav">
-            <div class="navUpper">
-              <div class="nav__logo">
-                <a href="index.html">
-                  13th Positive Foundation 501(c)(3)<br />
-                  <span class="nav__logo__highlight"> Est.2018 </span>
-                </a>
-                <!-- <img src="Photos/13th_Logo-removebg-preview(1).png" alt="" /> -->
-              </div>
-              <!-- <p class="nav__location">Est.2014</p> -->
-              <a href="#" class="nav__hamburger">
-                <span class="nav__hamburger__line"></span>
-                <span class="nav__hamburger__line"></span>
-                <span class="nav__hamburger__line"></span>
-              </a>
-              <div class="nav__menu">
-                <ul>
-                  <li class="nav__menu__link">
-                    <a href="about.html">Members</a>
-                  </li>
-                  <li class="nav__menu__link">
-                    <a href="Contributions.html">Contributions</a>
-                  </li>
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-                  <li class="nav__menu__link">
-                    <a href="#" class="navDonation">
-                      <i class="fa-solid fa-hand-holding-dollar"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </section>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/* Global Section Padding & Margin */
+body {
+  font-family: "Zilla Slab", serif;
 
-    <section class="ourMissionSec">
-      <p>
-        Every contribution supports our mission of empowering communities,
-        fostering education, and creating positive change.
-      </p>
-    </section>
-    <section class="whereDonationsGoSec">
-      <h2>Where Your Donations Go</h2>
-      <ul>
-        <li>
-          <strong>Community Programs:</strong> Supporting local initiatives like
-          food and toy drives, scholarship programs, and youth mentorship.
-        </li>
-        <li>
-          <strong>Educational Support:</strong> Providing resources and
-          opportunities for youth education and development.
-        </li>
-        <li>
-          <strong>Operational Costs:</strong> Ensuring the sustainability of our
-          programs by covering essential administrative expenses.
-        </li>
-      </ul>
+  background-color: #eeeeee;
+}
+section {
+  overflow: hidden;
+}
+.hero {
+  width: 100%;
+  background: url("Photos/joel-muniz-3k3l2brxmwQ-unsplash.jpg") no-repeat
+    center/cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
 
-      <img
-        class="payPalDonateBtn"
-        src="Photos/PayPal.svg.png"
-        alt="paypal Donate"
-      />
-    </section>
-    <section class="transparencySec">
-      <h2>Transparency and Impact</h2>
-      <p>
-        We believe in complete transparency. Regular reports are shared to show
-        how funds are allocated and the measurable impact of your generosity.
-        Together, we create meaningful change.
-      </p>
-      <p>
-        By contributing, you are directly investing in the future of our
-        communities. Whether it’s a child receiving a scholarship, a family
-        benefiting from a food drive, or a community project coming to life,
-        your support drives these initiatives forward. Every dollar counts, and
-        we ensure it is put to the best possible use.
-      </p>
-    </section>
-    <section class="thankYouSec">
-      <h2>Thank You!</h2>
-      <p>
-        Your support helps us build stronger communities. Thank you for making a
-        difference!
-      </p>
-    </section>
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__logo section__paragraph">
-          <img
-            src="Photos/13th_Logo-removebg-preview(1).png"
-            alt="13th Positive Logo"
-          />
-          <p>Instilling hope through brotherhood, goodwill, and mentorship.</p>
-        </div>
+/* Overlay */
+.overlay {
+  height: 100%;
+  backdrop-filter: blur(2px);
+  width: 100%;
+  background-color: #00000086;
+}
 
-        <div class="footer__contact">
-          <h4>Contact Us</h4>
-          <p>
-            Email:
-            <a href="mailto:13thPositive@gmail.com">13thPositive@gmail.com</a>
-          </p>
-          <p>Maywood, Illinois</p>
-        </div>
-        <div class="footer__social">
-          <h4>Follow Us</h4>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.facebook.com/13thPositiveFoundation/"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.instagram.com/13thpositiveonethree/"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </div>
-      </div>
-      <div class="footer__copyright">
-        <p>&copy; 2024 13th Positive. All Rights Reserved.</p>
-      </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
-</html>
+/* footer */
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.918);
+  padding: 1rem 0;
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer__logo {
+  flex: 1;
+  text-align: center;
+}
+
+.footer__logo img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.footer__logo p {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.footer__links,
+.footer__contact,
+.footer__social {
+  flex: 1;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.footer__links h4,
+.footer__contact h4,
+.footer__social h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer__links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links ul li {
+  margin: 0.5rem 0;
+}
+
+.footer__links ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer__links ul li a:hover {
+  border-bottom: 2px solid var(--accent-color);
+  color: var(--primary-color);
+}
+
+.footer__contact p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.footer__contact a {
+  font-weight: bold;
+  color: #fff;
+
+  text-decoration: none;
+}
+.footer__contact a:hover {
+  border-bottom: 2px solid var(--accent-color);
+  color: white;
+}
+
+.footer__social a {
+  margin: 0 0.5rem;
+}
+
+.footer__social i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.footer__social i:hover {
+  transition: all 0.3s ease;
+  color: var(--accent-color);
+}
+
+.footer__copyright {
+  text-align: center;
+  color: #fff;
+
+  padding: 1rem 0;
+  background-color: #00000049;
+
+  font-size: 0.9rem;
+}
+
+/* end of footer */
+
+/* nav lower styles */
+
+.navLower {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #02456e;
+  background-color: #2a2c2b;
+}
+.navLower p {
+  color: #000000;
+}
+.navLower ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  animation: grown 1.5s ease;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navLower ul li {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navLower ul li a {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+  line-height: 1;
+  font-size: 0.6rem;
+  font-weight: 200;
+}
+
+.navLower ul li a svg,
+.navLower ul li a i {
+  color: #f7f7f7;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  fill: #ffffff;
+}
+
+.navLowerPhone {
+  border-left: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
+
+  /* background-color: #0000008c; */
+}
+
+/* end of nav lower */
+@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+  .navLower {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+  }
+  .hero {
+    height: 35vh;
+  }
+  .howHeader {
+    text-align: center;
+  }
+
+  .ourMissionSec {
+    text-align: justify;
+    hyphens: auto;
+    padding: 2rem 2rem;
+  }
+  .ourMissionSec p {
+  }
+
+  .whereDonationsGoSec {
+    text-align: justify;
+    hyphens: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .whereDonationsGoSec h2 {
+    text-align: center;
+  }
+
+  .whereDonationsGoSec ul li {
+    padding: 0.5rem 0;
+  }
+  .payPalDonateBtn {
+    width: 30%;
+    background-color: #b3b3b3;
+    padding: 1rem;
+  }
+
+  .transparencySec {
+    text-align: justify;
+    hyphens: auto;
+    padding: 1rem 2rem;
+  }
+  .transparencySec h2 {
+    text-align: center;
+  }
+  .thankYouSec {
+    text-align: justify;
+    hyphens: auto;
+    padding: 2rem 2rem;
+  }
+  .thankYouSec h2 {
+    text-align: center;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+  .footer__links {
+    display: none;
+  }
+}
